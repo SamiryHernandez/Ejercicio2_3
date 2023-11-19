@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ejercicio 2.3</string>
+    <string name="imagen_tomada">Imagen tomada</string>//
+    <string name="ingresar_descripci_n">Ingresar descri0pción</string>//
+    <string name="guardar">Guardar</string>//
+    <string name="mostrar_imagenes">Mostrar Imagenes</string>//
+    <string name="tomar_foto">Tomar Foto</string>
+    //
+    <string name="imagen_para_el_listview_item">Imagen para el listView Item</string>
+    <string name="texto_de_ejemplo">Texto de ejemplo</string>
+    <string name="lista_de_imagenes_almacenadas">LISTA DE IMAGENES ALMACENADAS</string>//
+    <string name="atras">Atras</string>//
+</resources>

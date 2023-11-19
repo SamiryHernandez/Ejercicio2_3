@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/txtImg"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/imagen_tomada"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/btnTomarFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/boton_mostrar"
+        android:text="@string/tomar_foto"
+        app:icon="@android:drawable/ic_menu_camera" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/ingresar_descripci_n"
+        android:inputType="textMultiLine"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/boton"
+        android:text="@string/guardar"
+        app:icon="@android:drawable/ic_menu_save" />
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/boton_mostrar"
+        android:text="@string/mostrar_imagenes"
+        app:icon="@android:drawable/ic_menu_view" />
+</LinearLayout>
